@@ -1,0 +1,700 @@
+   .headerMobile{
+    padding: 0px 20px;
+    padding-right: 10px;
+    color: white;
+    flex-direction: row;
+    animation: none;
+    border-bottom: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #5c0164;
+    display: none;
+    height: 50px;
+    overflow: hidden;
+}
+.headerMobile .cntrLogo{
+    width: 46px;
+    height: 46px;
+}
+.headerMobile .cntrLogo svg{
+    width: 100%;
+    height: 100%;
+}
+
+.headerMobile .btnsNavegacao{
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 0px;
+}
+.headerMobile .btnsNavegacao:nth-child(2){
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.headerMobile .btnsNavegacao:nth-child(3){
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.btnsNavegacaoHeaderSuperior{
+    width: fit-content;
+    margin: 2px;
+    padding: 10px 20px;
+    font-size: .9em;
+
+}
+.btnsNavegacaoHeaderLateral{
+    width: 100%;
+    margin: 2px;
+    padding: 10px 20px;
+    font-size: .9em;
+
+}
+
+.homeMobile{
+    display: block;
+    height: fit-content;
+    padding-top: calc(70px + 40px);
+    background-image: linear-gradient(#5c0164, #6b0e5b);}
+
+.homeMobile .cntrSemiCirc > img {
+    display: none;
+}
+.homeMobile .cntrSemiCirc {
+    position: relative;
+    z-index: 1;
+    color: rgb(230, 230, 230);
+    animation: none;
+}
+.homeMobile .cntrBemVindo {
+    position: relative;
+    padding-left: 0px;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+.homeMobile .cntrBemVindo h1 {
+    font-size: 3em;
+}
+.homeMobile .cntrBemVindo button {
+    margin-top: 0px;
+    margin-right: 20px;
+    padding: 12px 40px;
+}
+.homeMobile .btnsNavegacao {
+    transition: 1s;
+    padding: 0px;
+}
+
+.homeMobile .cntrOndasHome{
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.homeMobile .cntrOndasHome svg {
+    width: 100%;
+}
+.homeMobile .cntrOndasHome svg path{
+    width: 100vw;
+}
+
+.homeMobile .ondasHome{
+    position: relative;
+    z-index: 3;
+    bottom: -10px;
+}
+.homeMobile .ondasHome2{
+    position: absolute;
+    z-index: 1;
+    bottom: 4px;
+    right: -10px;
+    transform: rotate(-2deg);
+
+}
+.homeMobile .ondasHome3{
+    position: absolute;
+    z-index: 2;
+    bottom: 2px;
+    left: -10px;
+    transform: rotate(2.5deg);
+}
+
+.homeMobile .ondasHome path{
+    fill: var(--corPrincipal);
+}
+.homeMobile .ondasHome2 path{
+    fill: #d04a5e;
+}
+.homeMobile .ondasHome3 path{
+    fill: #7525b1;
+}
+
+
+
+.sobreMimMobile{
+    min-height: none;
+    margin-top: 40px;
+}
+.sobreMimMobile .enfeite2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: .2;
+    transform: scale(.6);
+}
+.sobreMimMobile > h1 {
+    font-size: 1.7em;
+    margin-bottom: 50px;
+}
+
+.sobreMimMobile > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 0px 10px;
+}
+.sobreMimMobile .cntrSobreMimTexto {
+    margin: 20px;
+}
+
+.sobreMimMobile .cntrSobreMimFoto .cntrFoto {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+}
+.sobreMimMobile .cntrSobreMimFoto .circuloFoto {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+.projetosMobile{
+
+}
+.projetosMobile .enfeite3 {
+    left: 20px;
+    opacity: .5;
+    top: 0px;
+    transform: scale(.6);
+}
+.projetosMobile .enfeite5 {
+    position: absolute;
+    right: 0px;
+    opacity: .1;
+    top: 100px;
+    width: 60px;
+}
+.projetosMobile .projetos h1 {
+    color: #ffffff;
+    font-size: 1.6em;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    padding-top: 20px;
+}
+.projetosMobile .boxViewProjetos {
+    width: 100%;
+    padding: 12px;
+    z-index: 1;
+}
+.projetosMobile .enfeite3-2 {
+    position: absolute;
+    right: 10px;
+    opacity: .3;
+}
+
+
+.contatoMobile .cntrContato {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.contatoMobile .cntrContato form {
+    width: 90%;
+}
+.contatoMobile .cntrContato > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 30px 0px;
+}
+.contatoMobile .cntrContato > span div {
+    width: 100%;
+    height: 2px;
+}
+.contatoMobile .cntrContato > span p {
+    padding: 0px 20px;
+}
+.contatoMobile .cntrBtnContatoRedes {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contatoMobile .cntrBtnContatoRedes button {
+    width: calc(50% - 8px);
+    padding: 10px;
+    font-size: 1em;
+    margin: 4px 2px;
+    outline: none;
+    height: 42px;
+    background-color: #09151f;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+}
+.cntrBtnContatos-redesSociais{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.homeMobile .cntrContatoHeader {
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.homeMobile  .btnsNavegacaoHeaderLateral {
+    width: fit-content;
+    margin: 2px;
+    padding: 10px 20px;
+    font-size: .9em;
+}
+
+
+.homeMobile .iconsRedesProficionaisHome {
+    min-width: 50px;
+    min-height: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0px 2px;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+.iconsRedesProficionaisHome path{
+    fill: white;
+}
+.iconsRedesProficionaisHome:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.previewProjetosMobile{
+    z-index: 999;
+    width: 100%;
+    background-color: var(--corPrincipal);
+    position: absolute;
+    top: 0px;
+    display: none;
+    flex-direction: column;
+    animation: openPreviewProjetosMobile .4s both;
+}
+@keyframes openPreviewProjetosMobile {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes closePreviewProjetosMobile {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.headerPreviewProjetosMobile,
+.footerPreviewProjetosMobile{
+    background-color: #09151f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 20px);
+    height: fit-content;
+    position: relative;
+    margin: 10px 10px;
+    padding: 2px;
+    border-radius: 20px;
+}
+.footerPreviewProjetosMobile{
+    height: 50px;
+}
+.headerPreviewProjetosMobile > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+.btnVoltar, .btnsNavegacaoProjetosMobileEsquerda{
+    position: absolute;
+    left: 14px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cntrBtnMenuImgMobile{
+    position: absolute;
+    right: 14px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+.btnsNavegacaoProjetosMobileDireita{
+    position: absolute;
+    right: 14px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.previewProjetosMobile svg{
+    width: 30px;
+    height: 30px;
+}
+.previewProjetosMobile h1{
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+.cntrBtnMenuImgMobile svg{
+    width: 20px;
+    height: 30px;
+}
+
+.menuPreviewProjetMobile{
+    display: none;
+    justify-content: space-between;
+    z-index: 99;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    overflow: none;
+    margin-top: 2px;
+    position: relative;
+    top: 0px;
+    opacity: 1;
+}
+@keyframes openMenuPreviewProjetMobile {
+    0%{
+        top: -100px;
+        opacity: 0;
+    }
+    100%{
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes closeMenuPreviewProjetMobile {
+    0%{
+        top: 0px;
+        opacity: 1;
+    }
+    100%{
+        top: -50px;
+        opacity: 0;
+    }
+}
+
+.menuPreviewProjetMobile button{
+    padding: 14px 20px;
+    font-size: .8em;
+    border: 0px;
+    border-left: 2px solid #09151f;
+    cursor: pointer;
+    width: 25%;
+    background-color: var(--corPrincipal);
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menuPreviewProjetMobile button svg{
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
+}
+.fecharMenuPreviewProjet{
+    display: none;
+}
+.menuPreviewProjetMobile button svg path{
+    fill: #ccc;
+}
+.menuPreviewProjetMobile button:hover{
+    background-color: #202a36;
+}
+.menuPreviewProjetMobile button:first-child{
+    border-left: 0px;
+    border-bottom-left-radius: 18px;
+}
+.menuPreviewProjetMobile button:last-child{
+    border-bottom-right-radius: 18px;
+}
+.cntrImgPreviewProjetoMobile{
+    padding: 14px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgModoExibMobile{
+    width: 400px;
+    height: fit-content;
+    border-radius: 14px;
+    border: 2px solid var(--corPrincipal);
+    margin: 20px;
+    cursor: pointer;
+}
+.imgModoExibDesktop {
+    width: 100vh;
+    max-height: 90vw;
+    border-radius: 14px;
+    border: 2px solid var(--corPrincipal);
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+
+.headerMobile .cntrLogo{
+    display: none;
+}
+.headerMobileTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.headerMobileScroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+
+}
+
+
+
+
+@media screen and (max-width: 1300px){
+
+    .cntrBoxViewProjetos {
+        justify-content: space-evenly;
+    }
+    .boxViewProjetos {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1280px){
+
+    .boxViewProjetos {
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .cntrNotebook{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1000px){
+
+    .sobreMimMobile {
+        margin: 0px;
+    }
+    .boxViewProjetos {
+        width: 90%;
+
+    }
+    .sobreMim > h1 {
+        margin-bottom: 50px;
+    }
+    .sobreMim > div {
+        flex-direction: column-reverse;
+        margin: 0px 50px;
+    }
+    .cntrSobreMimTexto {
+        margin: 30px 0px;
+    }
+    .cntrSobreMimTexto > h2 {
+        text-align: center;
+    }
+    .cntrSobreMimFoto .cntrFoto{
+        height: auto;
+    }
+    .cntrSobreMimTexto > h2 {
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 970px){
+    .headerLetParaSup{
+        padding: 20px 50px;
+    }
+}
+@media screen and (max-width: 920px){
+    .headerSuperior{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (min-width: 766px){
+    main{
+        margin-left:  30px;
+    }}
+@media screen and (max-width: 766px){
+
+
+    main{
+        margin-left:  0px;
+        border-left:  none;
+    }
+
+    header{
+        display:  none;
+    }
+    .headerMobile{
+        display:  flex;
+    }
+    .cntrOndasHome{
+        display: block;
+    }
+    .enfeite{
+        z-index: -1;
+    }
+    
+    .sobreMim > h1 {
+        padding-top: 70px;
+    }
+    .sobreMim > div {
+        margin: 0px 30px;
+    }
+    .title{
+        font-size: 1.7em;
+    }
+
+    .homeMobile .cntrBemVindo h1 {
+        font-size: 3em;
+    }
+    .homeMobile .cntrBemVindo {
+        padding: 30px;
+        padding-bottom: 90px;
+    }
+    .cntrBtnContatos-redesSociais{
+        margin-top: 60px;
+    }
+    .sobreMimMobile .cntrSobreMimTexto {
+        margin: 50px 10px;
+    }
+    .formacao{
+        font-size: .8em;
+    }
+    .cntrNavegacao{
+        width: 100%;
+    }
+    .navegacao a{
+        width: 25%;
+    }
+    .sobreMimMobile > div {
+        padding: 0px;
+    }
+    .cntrBoxViewProjetos{
+        padding: 0px 14px;
+    }
+}
+@media screen and (min-width: 767px){
+    main{
+        border-left: 1px solid rgba(102, 102, 102, 0.3);
+    }
+    header{
+        display: flex;
+    }
+    .headerMobile{
+        display: none;
+    }
+    .enfeite{
+        z-index: 2;
+    }
+    .cntrOndasHome{
+        display: none;
+    }
+    .cntrBtnContatos-redesSociais{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 730px){
+    .homeMobile .cntrBemVindo h1 {
+        font-size: 2.9em;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    .sobreMim > div {
+        margin: 0px 20px;
+    }
+
+}
+@media screen and (max-width: 690px){
+    .homeMobile .cntrBemVindo h1 {
+        font-size: 2.8em;
+    }
+
+}
+@media screen and (max-width: 666px){
+    .homeMobile .cntrBemVindo h1 {
+        font-size: 2.65em;
+    }
+}
+@media screen and (max-width: 625px){
+    .homeMobile .cntrBemVindo h1 {
+        font-size: 2.5em;
+    }
+    .cntrSobreMimTexto > h2 {
+        font-size: 2.3em;
+    }
+}
+@media screen and (max-width: 605px){
+    .homeMobile .cntrBemVindo h1 {
+        font-size: 2.35em;
+    }
+    .cntrSobreMimTexto > h2 {
+        font-size: 2.1em;
+    }
+}
+@media screen and (max-width: 565px){
+    .homeMobile .cntrBemVindo h1 {
+        font-size: 2.2em;
+    }
+}

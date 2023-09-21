@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Elias - Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+</head>
+<body>
+    <header>
+        <div class="cntrLogo">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path class="svgHeader" d="m12.587 5.946-3.106 11.59 1.932.518 3.106-11.59-1.932-.518zm4.756.397L23 12l-5.657 5.657-1.414-1.414L20.172 12l-4.243-4.243zm-10.686 0L1 12l5.657 5.657 1.414-1.414L3.828 12l4.243-4.243z" paint-order="fill markers stroke" fill="#000000" data-original="#000000" class=""></path></g></svg>
+        </div>
+        <div class="cntrNavegacao">
+            <div class="navegacao">
+                <a class="btnsNavegacao" href="#ancora-home">Home</a>
+                <a class="btnsNavegacao" href="#ancora-sobreMim">Sobre mim</a>
+                <a class="btnsNavegacao" href="#ancora-projetos">Projetos</a>
+                <a class="btnsNavegacao" href="#ancora-contato">Contato</a>
+            </div>
+        </div>
+        <div class="cntrContatoHeader">
+            <svg onclick="window.open('https://github.com/Elias-Pdr', '_blank');"class="iconsRedesProficionais" id="iconGitHub" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path class="svgHeader" d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+            <svg onclick="window.open('https://www.linkedin.com/in/pedro-elias-j-calabianqui-b2473b205/', '_blank');" class="iconsRedesProficionais" id="iconLinkedin" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path class="svgHeader" d="M256 0C114.637 0 0 114.637 0 256s114.637 256 256 256 256-114.637 256-256S397.363 0 256 0zm-74.39 387h-62.348V199.426h62.347zm-31.173-213.188h-.406c-20.922 0-34.453-14.402-34.453-32.402 0-18.406 13.945-32.41 35.274-32.41 21.328 0 34.453 14.004 34.859 32.41 0 18-13.531 32.403-35.274 32.403zM406.423 387h-62.34V286.652c0-25.218-9.027-42.418-31.586-42.418-17.223 0-27.48 11.602-31.988 22.801-1.649 4.008-2.051 9.61-2.051 15.215V387h-62.344s.817-169.977 0-187.574h62.344v26.558c8.285-12.78 23.11-30.96 56.188-30.96 41.02 0 71.777 26.808 71.777 84.421zm0 0" fill="#000000" data-original="#000000" class=""></path></g></svg>
+            <svg onclick="window.open('https://wa.me/5524998428760?text=Ol%C3%A1,%20vim%20pelo%20seu%20portf%C3%B3lio', '_blank');"class="iconsRedesProficionais" id="iconWhatsapp" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 682 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(1.06,0,0,1.06,5.876889648437555,5.800000000000068)"><path class="svgHeader" fill-rule="evenodd" d="M544.387 93.008C484.512 33.063 404.883.035 320.05 0 145.246 0 2.98 142.262 2.91 317.113c-.024 55.895 14.577 110.457 42.331 158.551L.25 640l168.121-44.102c46.324 25.27 98.477 38.586 151.55 38.602h.134c174.785 0 317.066-142.273 317.132-317.133.036-84.742-32.921-164.418-92.8-224.36zM320.05 580.94h-.11c-47.296-.02-93.683-12.73-134.16-36.742l-9.62-5.715-99.766 26.172 26.628-97.27-6.27-9.972c-26.386-41.969-40.32-90.476-40.296-140.281.055-145.332 118.305-263.57 263.7-263.57 70.406.023 136.59 27.476 186.355 77.3s77.156 116.051 77.133 186.485C583.582 462.69 465.34 580.94 320.05 580.94zm144.586-197.418c-7.922-3.968-46.883-23.132-54.149-25.78-7.258-2.645-12.547-3.962-17.824 3.968-5.285 7.93-20.469 25.781-25.094 31.066-4.625 5.29-9.242 5.953-17.168 1.985-7.925-3.965-33.457-12.336-63.726-39.332-23.555-21.012-39.457-46.961-44.082-54.89-4.617-7.938-.04-11.813 3.476-16.173 8.578-10.652 17.168-21.82 19.809-27.105 2.644-5.29 1.32-9.918-.664-13.883-1.977-3.965-17.824-42.969-24.426-58.84-6.437-15.445-12.965-13.36-17.832-13.601-4.617-.231-9.902-.278-15.187-.278-5.282 0-13.868 1.98-21.133 9.918-7.262 7.934-27.73 27.102-27.73 66.106s28.394 76.683 32.355 81.972c3.96 5.29 55.879 85.328 135.367 119.649 18.906 8.172 33.664 13.043 45.176 16.695 18.984 6.031 36.254 5.18 49.91 3.14 15.226-2.277 46.879-19.171 53.488-37.68 6.602-18.51 6.602-34.374 4.617-37.683-1.976-3.304-7.261-5.285-15.183-9.254zm0 0" fill="#000000" data-original="#000000" class=""></path></g></svg>
+        </div>
+    </header>
+
+    
+    <div class="headerMobile">
+        <div class="cntrLogo cntrLogoMobile">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path class="svgHeader" d="m12.587 5.946-3.106 11.59 1.932.518 3.106-11.59-1.932-.518zm4.756.397L23 12l-5.657 5.657-1.414-1.414L20.172 12l-4.243-4.243zm-10.686 0L1 12l5.657 5.657 1.414-1.414L3.828 12l4.243-4.243z" paint-order="fill markers stroke" fill="#000000" data-original="#000000" class=""></path></g></svg>
+        </div>
+        <div class="cntrNavegacao">
+            <div class="navegacao">
+                <a class="btnsNavegacao" href="#ancora-home">Home</a>
+                <a class="btnsNavegacao" href="#ancora-sobreMim">Sobre mim</a>
+                <a class="btnsNavegacao" href="#ancora-projetos2">Projetos</a>
+                <a class="btnsNavegacao" href="#ancora-contato">Contato</a>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <section id="ancora-home" class="ancora home sectionMain">
+            <div class="cntrSemiCirc">
+                <img src="image/home/semiCirculoRoxo.png" alt="Fundo Roxo">
+                <div class="cntrBemVindo">
+                    <p class="formacao">Desenvolvedor front-end</p>
+                    <h1>Olá, <span id="saudacao"></span> <br> Me chamo <span class="myName">Pedro Elias</span> <br> Sou web desenvolvedor.</h1>
+
+                    <div class="cntrBtnContatos-redesSociais">
+                        <a class="btnsNavegacaoContato" href="#ancora-contato"><button>Contate-me</button></a>
+                        <div class="cntrContatoHeader">
+                            <svg onclick="window.open('https://github.com/Elias-Pdr', '_blank');"class="iconsRedesProficionaisHome" id="iconGitHub" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path class="svgHeader" d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                            <svg onclick="window.open('https://www.linkedin.com/in/pedro-elias-j-calabianqui-b2473b205/', '_blank');" class="iconsRedesProficionaisHome" id="iconLinkedin" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path class="svgHeader" d="M256 0C114.637 0 0 114.637 0 256s114.637 256 256 256 256-114.637 256-256S397.363 0 256 0zm-74.39 387h-62.348V199.426h62.347zm-31.173-213.188h-.406c-20.922 0-34.453-14.402-34.453-32.402 0-18.406 13.945-32.41 35.274-32.41 21.328 0 34.453 14.004 34.859 32.41 0 18-13.531 32.403-35.274 32.403zM406.423 387h-62.34V286.652c0-25.218-9.027-42.418-31.586-42.418-17.223 0-27.48 11.602-31.988 22.801-1.649 4.008-2.051 9.61-2.051 15.215V387h-62.344s.817-169.977 0-187.574h62.344v26.558c8.285-12.78 23.11-30.96 56.188-30.96 41.02 0 71.777 26.808 71.777 84.421zm0 0" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                            <svg onclick="window.open('https://wa.me/5524998428760?text=Ol%C3%A1,%20vim%20pelo%20seu%20portf%C3%B3lio', '_blank');"class="iconsRedesProficionaisHome" id="iconWhatsapp" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 682 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(1.06,0,0,1.06,5.876889648437555,5.800000000000068)"><path class="svgHeader" fill-rule="evenodd" d="M544.387 93.008C484.512 33.063 404.883.035 320.05 0 145.246 0 2.98 142.262 2.91 317.113c-.024 55.895 14.577 110.457 42.331 158.551L.25 640l168.121-44.102c46.324 25.27 98.477 38.586 151.55 38.602h.134c174.785 0 317.066-142.273 317.132-317.133.036-84.742-32.921-164.418-92.8-224.36zM320.05 580.94h-.11c-47.296-.02-93.683-12.73-134.16-36.742l-9.62-5.715-99.766 26.172 26.628-97.27-6.27-9.972c-26.386-41.969-40.32-90.476-40.296-140.281.055-145.332 118.305-263.57 263.7-263.57 70.406.023 136.59 27.476 186.355 77.3s77.156 116.051 77.133 186.485C583.582 462.69 465.34 580.94 320.05 580.94zm144.586-197.418c-7.922-3.968-46.883-23.132-54.149-25.78-7.258-2.645-12.547-3.962-17.824 3.968-5.285 7.93-20.469 25.781-25.094 31.066-4.625 5.29-9.242 5.953-17.168 1.985-7.925-3.965-33.457-12.336-63.726-39.332-23.555-21.012-39.457-46.961-44.082-54.89-4.617-7.938-.04-11.813 3.476-16.173 8.578-10.652 17.168-21.82 19.809-27.105 2.644-5.29 1.32-9.918-.664-13.883-1.977-3.965-17.824-42.969-24.426-58.84-6.437-15.445-12.965-13.36-17.832-13.601-4.617-.231-9.902-.278-15.187-.278-5.282 0-13.868 1.98-21.133 9.918-7.262 7.934-27.73 27.102-27.73 66.106s28.394 76.683 32.355 81.972c3.96 5.29 55.879 85.328 135.367 119.649 18.906 8.172 33.664 13.043 45.176 16.695 18.984 6.031 36.254 5.18 49.91 3.14 15.226-2.277 46.879-19.171 53.488-37.68 6.602-18.51 6.602-34.374 4.617-37.683-1.976-3.304-7.261-5.285-15.183-9.254zm0 0" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="cntrNotebook">
+                <img src="image/home/notebookComConteudo.png" alt="notebook">
+            </div>
+            <svg class="enfeite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="646" height="220" viewBox="0 0 646 220">
+                <image x="17" y="12" width="584" height="154" xlink:href="data:img/png;base64,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"/>
+            </svg>
+
+            <div class="cntrOndasHome">
+                <svg class="ondasHome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 53">
+                    <path d="M-1,9s30.86-3.623,91,6c42.537,6.806,105.512,27.792,157,28,54.058,0.218,106.223-20.047,150-27,56-8.895,97-5,97-5l5,33-8,36L39,75-14,61Z"/>
+                </svg>
+
+                <svg class="ondasHome2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 53">
+                    <path d="M-1,9s30.86-3.623,91,6c42.537,6.806,105.512,27.792,157,28,54.058,0.218,106.223-20.047,150-27,56-8.895,97-5,97-5l5,33-8,36L39,75-14,61Z"/>
+                </svg>
+
+                <svg class="ondasHome3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 53">
+                    <path d="M-1,9s30.86-3.623,91,6c42.537,6.806,105.512,27.792,157,28,54.058,0.218,106.223-20.047,150-27,56-8.895,97-5,97-5l5,33-8,36L39,75-14,61Z"/>
+                </svg>
+            </div>
+
+        </section>
+
+
+
+        <section id="ancora-sobreMim" class="ancora sobreMim sectionMain">
+            <svg class="enfeite2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="155" height="86" viewBox="0 0 155 86">
+                <image x="7" y="6" width="142" height="73" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAABJCAYAAADrEB4EAAAC7klEQVR4nO2cy2oUQRhGj2GUgNG1ILjyiqJP4QV9EsGn8AFEEEEN+AKuRAXjA+jOFxDvGkZculAEGWnphjHdNT1Uprq6wjmrkMqcoeDrv28f2TebzUjF1+mnN8B74FLPV2wAL48eOXa+tdKB3rTeZVhblSjAXeAi8Lx7+R8HgA/A8dZKGL1pvb2kDs5t4AZwGXjaWoV14AtwELjQWg2jN623l8kqZQGqo+I38AB4MTdW5zd1GvjY/fEgetN6F5J64jRs1kdGNVYfA4frjVTn3nO72JTetN4gQ0ychurI+AncB74Bv4BTK9iU3rTeToaaOA0PgR/1GH21wk3pTettMWRwqrH5HdgP3ASuAFutv9I7Nm8nQ52q1uvnDYeAE8BnYBu4BzwDrrU+oXcM3iBDTJyNeiPV1f2Z+mfqc/F14GrPc4gQetN6F5J64lRX9+/qTZ2c21RDdUT8qW8lt+rnEXrze3tJHZzX9ZF2tmNTDZv1CL/VWgmjN623l9TBeQQ8Ad62Vv7nDjBt/TaM3rTeXpK+5JS9y9DPcWSPYHAkCoMjURgcicLgSBQGR6JI+hzHbnCZ3mWwc6w3CjvHeqOwc9xG7xLYOe5Gbw92jsPoXYCd48XoDWDnOIzeBdg57kZvD3aO2+hdAjvHeqOwc6w3CjvHeqOwcyxRWKuQKAyORGFwJAqDI1EYHInC4EgUE3u2ZXpzs2Z/t1hvVtbs7xbrzUrzysGebZnebMxfHNuzLdObhZ0vOe3ZlukdnK7bcXu2ZXoHZWdw7NmW6R2c+VOVPdsyvVloJo492zK92ZjY3y3Wm5WJ/d1ivVmZ2N8t1psVO8cSRddzHJFeDI5EYXAkCoMjURgcicLgSBRD/iu3XWHXeFzekiaOXeMReUsKjl3jEXmLOVXV2DUeibfEi2O7xiPwljZxGuwaZ/aWfDtu1zijt9Tg2DXO7C3xVGXXeATe0iaOXeOReEuaOHaNR+QtKTh2jUfkLSk4do3H4oXpXz94IHt2xESmAAAAAElFTkSuQmCC"/>
+            </svg>
+
+            <h1 class="title">Conheça um pouco sobre mim</h1>
+            <div>
+                <div class="cntrSobreMimTexto">
+                    <h2>Quem sou eu?</h2>
+                        <p>Olá! Meu nome é Pedro Elias, sou um jovem de 20 anos apaixonado por desenvolvimento web. Tenho conhecimentos sólidos em <span>HTML, CSS e JavaScript</span>, além de estar aprimorando minhas habilidades com o curso de <span>WordPress</span>. </p>
+                        <p>Acredito que o design e a funcionalidade são essenciais para criar experiências digitais incríveis. Tenho experiência em criar <span>sites responsivos, intuitivos e visualmente atraentes</span>, garantindo a melhor experiência do usuário.</p>
+                        <p>Estou sempre em busca de novos desafios e oportunidades para expandir meu conhecimento e aprimorar minhas habilidades. Se você está procurando um <span>desenvolvedor web comprometido, criativo e apaixonado</span>, estou pronto para ajudar a transformar suas ideias em realidade.</p>
+                </div>
+
+                <div class="cntrSobreMimFoto">
+                    <div class="cntrFoto">
+                        <span class="circuloFoto"></span>
+                        <span class="circuloFoto"></span>
+                        <span class="circuloFoto"></span>
+                        <img class="minhaFoto" src="image/Eu e eu/minhaFoto.jpeg" alt="FotoPedroElias">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos sectionMain">
+            <img id="ancora-projetos2" class="efeitoOnda1" src="image/Eu e eu/onda1.png" alt="Efeito onda">
+
+            <svg class="enfeite3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="105" viewBox="0 0 39 105">
+                <image x="3" y="5" width="18" height="96" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAABgCAYAAAAQJCKdAAAD/0lEQVRYhe2YS2yUVRiGn5lpy0WNCCkNYhGLUhmYcAkuJqlxYSARJBAFEowuSpcYSICYhhBMGi6BgLpjBUaNKcHARhICiSRcAm6wUS5FFEEpNLSgLTdp2pkxn3lPOTPzdzp0JgGS+Tbtf+Y/z/lu53s7DR2dupoh2LPAWKAcuAF0lz0iIwSMA5YAiwDb/y3Q/CigMPASsAJYDowBEuYNcDhfkL03BVgFLFVozjqBu/mAKoCZwDpgDjBc60ngJ+Br4O/BQCOAOkHq5JlZD3AK2AycjMeifblAzwHzgE+A6UAESAlyANgBnI7Hor14J/hmlRmlyhjkFSXa7C7wHbAN+F3JJgjkyvshsBIYr/WUkvoVsBO47G8qb25IAxmkBvgY+AgY7UGuA5+rZ25kxeB5ZD8nA2tV3pECG+Si8mEhdWUCzBsUe0Q90gR8ADwjiMV/GlgP7AmCxGPRcO+yXSHniZ2+QBUapnesEicEP6VKBVmF3k2E1WDVHgTl4UvgxxwQtGe4C+0e0Ar8671QCbwP1Cr0gaxH/Uakfmy8z1pcpZ6k0VCmClorXABu6kqkWXVVpeWxIrmv5YGB0A1u1Y2eLFBEsAnAr0BHJqyto9Ng5lWZA6V06hkNrNfkmcEmanycC/KsuqrS9qYcyMH+USgvCFYh7ybJu99UiKQHwuXIP8Bgt+TZ88Dr8syK8rK8a/XDHAjke3ZRsFovZxN1iZ1niVwgZ1bJs5pJUYUZVvJfFay9uqoyORgopWtxVmOlVrCIGtiAv7R1dHZYwnOBnN0GznueuWpO0PUyWFc+INRn53QdpmaEacPu53DWlmCzPFwF9irUhCaEtcmb1shBozbInBzVAzFvftsB7cWSo2+sXYolR725QE+xHGWChixHvq49djkKFUuObH+f86gQOQqXNzekKIIcJVxoYQEOAt97MPPuHWCD7lZQv+H3UcFyVHOkMQ00ZDl68XgbkcWzKIocJfe1ZM3skhyV5CjASnKUbiU5egjhSZKjSHlzQ1HkKOR+KVSO+kduQd+Oao40pnyP7OEPYBOwH3igz+yOzVeeZgT0HMemrXmYrJIcleRocCvJ0cBWkqMnUY7KPDn6FHjXEwGLvwXYChwC7mRCTI50WMFy1G+FylEaaMhy5L5iUYRvR2keFUWO3IcJDa8mPb+ne2awuVrboBHSl+WO1/roNlvbb1HP3FcvuTBtfbYmZJYVLEdOIIMmpL1wSd28R56lBHwb2Ai8obD7LdfMzluOgpQ2M8y85SgotEzYX5o/NkJsHtmaVfstTQkTgMAcBcFs/mwHduvy2pp5ZkPv/39D56siVoA/gS8kmAsF+0F/J+QNcp5dAT6TvtnztXgs2g3wH2n+ThzdUk+oAAAAAElFTkSuQmCC"/>
+                <image x="18" y="5" width="18" height="96" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAABgCAYAAAAQJCKdAAAC3UlEQVRYhe2ZXWiNcRzHPzvPMe/vbRKbYcyOllyuJjdcEFGiFBfbLVGSCxeUC0Xe7tyRJMUlJcqFEm5QjDHKO23DNiYtbY9+833Wv/M855xncUH+37s9O//P83v7/751TtmNxbuI1NiQI6UmAJXAKKAD6M2mPSmVATOBjcB6wM6fA86PBJQBZgPbgBZgOjBg0QDX0oLsc/XATmCTUovUBfSlAZUDS4G9wEpgjJ4PAveAs0D3MKhAoccCTYI0KTJTP3AbOAjcAn5ki0AmAquBPcASIABCQS4DR4G7BsF5gyvrzBR1xiBzVWhTH3AROAw8V7FJAkXt3QLsAGbpeaiingFOAi/y357Ng8wDtgNbgWkO5D1wXDPTEcvBAVn+dcButXecwAZpVz0spZ4YIQI1NuQMYtXeD6wBRut/lv994BBwFfgaO50Xkb19rToUQawTN4EDanN/7GSeMhqwKgeC6nAauJMGgkDfgDbgu/O8AtigugWxUwnKCHAFuOTALLpVwD6gIWFMYgpWhLVUzajoVVR2oxfqYKBxqAaeAp26X4kKmisbDWRt/gg81MJaoKVlsBqtj0f6TCIsAqGZ6QaeAFMFK1d08xXdMzUiBnNBEeyTIpsMLFJkVss5iq4tKc18kBtZu2B1Ts1qdImjyAaKgSJ9Blq1k3JKM6Pi1wr2IYpsCPS2sysJFuputWqt1AkWaIAN+EBphkMgUwGY6Qvw2Iks6ma1rpfBejKxY3GF2j9HgFNabqHqZnd0MzApDQjV4Q1wQakOaM3YmCyzQR6pHTXrykT7e1AF93b0T9tRVgvtt+2o3ttRQXk78nZUwEG8HXk78nbk7SiFvB15Oyqw9L0deTvydvSXflmX+VNf1o33dlRU3o7+azsqtfwN9lr7x1aI6yDLtSWsMcMLqxTMtSO7vPbMIrN62SYtPbGS1eEVcEKGuU6w62rML1DKn8Ps4EvgmPzN/n439CMU8BPpHhoYTnc+PQAAAABJRU5ErkJggg=="/>
+            </svg>
+
+            <svg class="enfeite5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="187" viewBox="0 0 141 187">
+                <image x="16" y="2" width="125" height="171" xlink:href="data:img/png;base64,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"/>
+            </svg>
+            
+            <h1 id="ancora-projetos" class="ancora title">Veja alguns projetos feitos por mim:</h1>
+            <p>Sinta-se à vontade para explorar meu portfolio e conhecer alguns dos projetos nos quais trabalhei.</p>
+
+            <div class="cntrBoxViewProjetos">
+                <div class="boxViewProjetos" onclick="previewProjetos('1')">
+                    <img src="image/Projetos/AirJordan.jpg" alt="Prejeto 1">
+                </div>
+
+                <div class="boxViewProjetos" onclick="previewProjetos('2')">
+                    <img src="image/Projetos/johnWick.jpg" alt="Prejeto 2">
+                </div>
+
+                <div class="boxViewProjetos" onclick="previewProjetos('3')">
+                    <img src="image/Projetos/spiritedAway.jpg" alt="Prejeto 3">
+                </div>
+
+                <div class="boxViewProjetos" onclick="previewProjetos('4')">
+                    <img src="image/Projetos/heisiTattooPreview.jpg" alt="Prejeto 4">
+                </div>
+
+            </div>
+            
+            <svg class="enfeite3-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="105" viewBox="0 0 39 105">
+                <image x="3" y="5" width="18" height="96" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAABgCAYAAAAQJCKdAAAD/0lEQVRYhe2YS2yUVRiGn5lpy0WNCCkNYhGLUhmYcAkuJqlxYSARJBAFEowuSpcYSICYhhBMGi6BgLpjBUaNKcHARhICiSRcAm6wUS5FFEEpNLSgLTdp2pkxn3lPOTPzdzp0JgGS+Tbtf+Y/z/lu53s7DR2dupoh2LPAWKAcuAF0lz0iIwSMA5YAiwDb/y3Q/CigMPASsAJYDowBEuYNcDhfkL03BVgFLFVozjqBu/mAKoCZwDpgDjBc60ngJ+Br4O/BQCOAOkHq5JlZD3AK2AycjMeifblAzwHzgE+A6UAESAlyANgBnI7Hor14J/hmlRmlyhjkFSXa7C7wHbAN+F3JJgjkyvshsBIYr/WUkvoVsBO47G8qb25IAxmkBvgY+AgY7UGuA5+rZ25kxeB5ZD8nA2tV3pECG+Si8mEhdWUCzBsUe0Q90gR8ADwjiMV/GlgP7AmCxGPRcO+yXSHniZ2+QBUapnesEicEP6VKBVmF3k2E1WDVHgTl4UvgxxwQtGe4C+0e0Ar8671QCbwP1Cr0gaxH/Uakfmy8z1pcpZ6k0VCmClorXABu6kqkWXVVpeWxIrmv5YGB0A1u1Y2eLFBEsAnAr0BHJqyto9Ng5lWZA6V06hkNrNfkmcEmanycC/KsuqrS9qYcyMH+USgvCFYh7ybJu99UiKQHwuXIP8Bgt+TZ88Dr8syK8rK8a/XDHAjke3ZRsFovZxN1iZ1niVwgZ1bJs5pJUYUZVvJfFay9uqoyORgopWtxVmOlVrCIGtiAv7R1dHZYwnOBnN0GznueuWpO0PUyWFc+INRn53QdpmaEacPu53DWlmCzPFwF9irUhCaEtcmb1shBozbInBzVAzFvftsB7cWSo2+sXYolR725QE+xHGWChixHvq49djkKFUuObH+f86gQOQqXNzekKIIcJVxoYQEOAt97MPPuHWCD7lZQv+H3UcFyVHOkMQ00ZDl68XgbkcWzKIocJfe1ZM3skhyV5CjASnKUbiU5egjhSZKjSHlzQ1HkKOR+KVSO+kduQd+Oao40pnyP7OEPYBOwH3igz+yOzVeeZgT0HMemrXmYrJIcleRocCvJ0cBWkqMnUY7KPDn6FHjXEwGLvwXYChwC7mRCTI50WMFy1G+FylEaaMhy5L5iUYRvR2keFUWO3IcJDa8mPb+ne2awuVrboBHSl+WO1/roNlvbb1HP3FcvuTBtfbYmZJYVLEdOIIMmpL1wSd28R56lBHwb2Ai8obD7LdfMzluOgpQ2M8y85SgotEzYX5o/NkJsHtmaVfstTQkTgMAcBcFs/mwHduvy2pp5ZkPv/39D56siVoA/gS8kmAsF+0F/J+QNcp5dAT6TvtnztXgs2g3wH2n+ThzdUk+oAAAAAElFTkSuQmCC"/>
+                <image x="18" y="5" width="18" height="96" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAABgCAYAAAAQJCKdAAAC3UlEQVRYhe2ZXWiNcRzHPzvPMe/vbRKbYcyOllyuJjdcEFGiFBfbLVGSCxeUC0Xe7tyRJMUlJcqFEm5QjDHKO23DNiYtbY9+833Wv/M855xncUH+37s9O//P83v7/751TtmNxbuI1NiQI6UmAJXAKKAD6M2mPSmVATOBjcB6wM6fA86PBJQBZgPbgBZgOjBg0QDX0oLsc/XATmCTUovUBfSlAZUDS4G9wEpgjJ4PAveAs0D3MKhAoccCTYI0KTJTP3AbOAjcAn5ki0AmAquBPcASIABCQS4DR4G7BsF5gyvrzBR1xiBzVWhTH3AROAw8V7FJAkXt3QLsAGbpeaiingFOAi/y357Ng8wDtgNbgWkO5D1wXDPTEcvBAVn+dcButXecwAZpVz0spZ4YIQI1NuQMYtXeD6wBRut/lv994BBwFfgaO50Xkb19rToUQawTN4EDanN/7GSeMhqwKgeC6nAauJMGgkDfgDbgu/O8AtigugWxUwnKCHAFuOTALLpVwD6gIWFMYgpWhLVUzajoVVR2oxfqYKBxqAaeAp26X4kKmisbDWRt/gg81MJaoKVlsBqtj0f6TCIsAqGZ6QaeAFMFK1d08xXdMzUiBnNBEeyTIpsMLFJkVss5iq4tKc18kBtZu2B1Ts1qdImjyAaKgSJ9Blq1k3JKM6Pi1wr2IYpsCPS2sysJFuputWqt1AkWaIAN+EBphkMgUwGY6Qvw2Iks6ma1rpfBejKxY3GF2j9HgFNabqHqZnd0MzApDQjV4Q1wQakOaM3YmCyzQR6pHTXrykT7e1AF93b0T9tRVgvtt+2o3ttRQXk78nZUwEG8HXk78nbk7SiFvB15Oyqw9L0deTvydvSXflmX+VNf1o33dlRU3o7+azsqtfwN9lr7x1aI6yDLtSWsMcMLqxTMtSO7vPbMIrN62SYtPbGS1eEVcEKGuU6w62rML1DKn8Ps4EvgmPzN/n439CMU8BPpHhoYTnc+PQAAAABJRU5ErkJggg=="/>
+            </svg>
+
+        </section>
+
+        <div class="previewProjetos">
+            <div class="cntrBarraLateralPreview">
+                <span>
+                    <div class="cntrBtnVoltarPreview" onclick="fecharPreviewProjetos()">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(1.2000000000000002,0,0,1.2000000000000002,-2.3999999999999986,-2.3999999999999986)"><path d="M11 16c-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l2.3-2.3-2.3-2.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l2.7 2.7c.3.3.4.6.4 1s-.1.7-.4 1l-2.7 2.7c-.2.2-.4.3-.7.3z" class="" fill="#000000" data-original="#000000"></path></g></svg>
+                    </div>
+                </span>
+                <span>
+                    <div class="cntrBtnsBarraPreview">
+                        <button onclick="verCod()">
+                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline"><path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path></svg>
+                            <p>Ver codigo</p>
+                        </button>
+                    
+                        <button onclick="visitarSite()">
+                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" data-view-component="true"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg>
+                            <p>Visitar site</p>
+                        </button>
+
+                        <button onclick="modoExibPreviewDesktop()">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 16.933 16.933" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M1.323 3.176a.798.798 0 0 0-.795.792v7.409c0 .435.36.792.795.792h6.084V9.525h-6.35V3.968c0-.15.115-.263.266-.263h10.055c.151 0 .264.112.264.263v.264h.529v-.264a.796.796 0 0 0-.793-.792zM8.731 4.76a.8.8 0 0 0-.795.795v7.409c0 .435.36.792.795.792h3.713a1.305 1.305 0 0 1-.273-.792V11.64H8.466v-5.82h5.293v1.587h.529V5.556a.8.8 0 0 0-.795-.795zm-6.883.526a.265.265 0 0 0-.261.27v.529a.265.265 0 1 0 .53 0v-.53a.265.265 0 0 0-.269-.27zm0 1.588a.265.265 0 0 0-.261.27V8.73a.265.265 0 1 0 .53 0V7.144a.265.265 0 0 0-.269-.27zm7.409 0a.265.265 0 0 0-.262.27v.529a.265.265 0 1 0 .53 0v-.53a.265.265 0 0 0-.268-.27zm4.236 1.062a.797.797 0 0 0-.793.793v4.235c0 .435.358.792.793.792h2.117a.796.796 0 0 0 .793-.792V8.73a.796.796 0 0 0-.793-.793zm-4.236.526a.265.265 0 0 0-.262.267v1.588a.265.265 0 1 0 .53 0V8.73a.265.265 0 0 0-.268-.267zm3.973.533h2.644v3.703H13.23zm-7.158 1.587h.543c.352 0 .352.53 0 .53h-.53c-.353.017-.378-.513-.013-.53zm4.777 1.586h.53a.265.265 0 0 1 0 .53h-.53a.265.265 0 0 1 0-.53zm-6.002.53a1.984 1.984 0 0 1-.447.53h-.432a.265.265 0 1 0 0 .528H7.68a1.304 1.304 0 0 1-.274-.792v-.266z" fill="#cccccc" data-original="#000000"></path></g></svg>
+                            <p class="textModExib">...</p>
+                        </button>
+                        
+                        <button onclick="comentar()" class="bntComentar">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><clipPath id="a"><path d="M0 0h24v24H0z" fill="#cccccc" data-original="#000000" class=""></path></clipPath><g fill="#000" clip-path="url(#a)"><path d="M18 7a1 1 0 1 0 0-2H6a1 1 0 1 0 0 2zM18 10a1 1 0 1 0 0-2H6a1 1 0 1 0 0 2zM11 12a1 1 0 0 1-1 1H6a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1z" fill="#cccccc" data-original="#000000" class=""></path><path fill-rule="evenodd" d="M3 0a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h1v5a1 1 0 0 0 1.6.8l7.733-5.8H21a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3zM2 3a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-8a1 1 0 0 0-.6.2L6 21v-4a1 1 0 0 0-1-1H3a1 1 0 0 1-1-1z" clip-rule="evenodd" fill="#cccccc" data-original="#000000" class=""></path></g></g></svg>
+                            <p>Comentar</p>
+                        </button>
+                    
+                    </div>
+                </span>
+                <span>
+                    <div class="cntrNavProjetosPrev">
+                        <p>Navegue entre os projetos</p>
+                        <div class="cntrBtnsNavPreview">
+                            <button onclick="navProjectEsquerda()">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,492.00405883789074,492.0039672851562)"><path d="M382.678 226.804 163.73 7.86C158.666 2.792 151.906 0 144.698 0s-13.968 2.792-19.032 7.86l-16.124 16.12c-10.492 10.504-10.492 27.576 0 38.064L293.398 245.9l-184.06 184.06c-5.064 5.068-7.86 11.824-7.86 19.028 0 7.212 2.796 13.968 7.86 19.04l16.124 16.116c5.068 5.068 11.824 7.86 19.032 7.86s13.968-2.792 19.032-7.86L382.678 265c5.076-5.084 7.864-11.872 7.848-19.088.016-7.244-2.772-14.028-7.848-19.108z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                            </button>
+                            <button onclick="navProjectDireita()">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M382.678 226.804 163.73 7.86C158.666 2.792 151.906 0 144.698 0s-13.968 2.792-19.032 7.86l-16.124 16.12c-10.492 10.504-10.492 27.576 0 38.064L293.398 245.9l-184.06 184.06c-5.064 5.068-7.86 11.824-7.86 19.028 0 7.212 2.796 13.968 7.86 19.04l16.124 16.116c5.068 5.068 11.824 7.86 19.032 7.86s13.968-2.792 19.032-7.86L382.678 265c5.076-5.084 7.864-11.872 7.848-19.088.016-7.244-2.772-14.028-7.848-19.108z" fill="#000000" data-original="#000000" class=""></path></g></svg> 
+                            </button>
+                        </div>
+                    </div>
+                </span>
+            </div>
+
+            <div class="cntrImgPreviewProjeto">
+                <img src="" alt="" class="imgPreviewProjeto" onclick="visitarSite()">
+            </div>
+        </div>
+
+        <div class="previewProjetosMobile">
+            <div class="headerPreviewProjetosMobile">
+                <span>
+                    <div class="btnVoltar" onclick="fecharPreviewProjetos()">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M492 236H68.442l70.164-69.824c7.829-7.792 7.859-20.455.067-28.284-7.792-7.83-20.456-7.859-28.285-.068l-104.504 104-.018.019c-7.809 7.792-7.834 20.496-.002 28.314l.018.019 104.504 104c7.828 7.79 20.492 7.763 28.285-.068 7.792-7.829 7.762-20.492-.067-28.284L68.442 276H492c11.046 0 20-8.954 20-20s-8.954-20-20-20z" fill="#cccccc" data-original="#000000"></path></g></svg>
+                    </div>
+                    <h1>Pagina de vendas</h1>
+                    <div class="cntrBtnMenuImgMobile" onclick="controllerMenuImgMobile('.abrirMenuPreviewProjet', '.fecharMenuPreviewProjet')">
+                        <svg class="abrirMenuPreviewProjet" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 124 124" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M112 6H12C5.4 6 0 11.4 0 18s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 94H12c-6.6 0-12 5.4-12 12s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z" fill="#cccccc" data-original="#000000"></path></g></svg>
+                        <svg class="fecharMenuPreviewProjet" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 460.775 460.775" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M285.08 230.397 456.218 59.27c6.076-6.077 6.076-15.911 0-21.986L423.511 4.565a15.55 15.55 0 0 0-21.985 0l-171.138 171.14L59.25 4.565a15.551 15.551 0 0 0-21.985 0L4.558 37.284c-6.077 6.075-6.077 15.909 0 21.986l171.138 171.128L4.575 401.505c-6.074 6.077-6.074 15.911 0 21.986l32.709 32.719a15.555 15.555 0 0 0 21.986 0l171.117-171.12 171.118 171.12a15.551 15.551 0 0 0 21.985 0l32.709-32.719c6.074-6.075 6.074-15.909 0-21.986L285.08 230.397z" fill="#cccccc" data-original="#000000" class=""></path></g></svg>
+                    </div>
+                </span>
+                <div class="menuPreviewProjetMobile">
+                    <button onclick="verCod()">
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline"><path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path></svg>
+                        Ver codigo
+                    </button>
+                    <button onclick="visitarSite()">
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" data-view-component="true"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg>
+                        Visitar site
+                    </button>
+                    <button onclick="modoExibPreviewMobile()">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 16.933 16.933" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M1.323 3.176a.798.798 0 0 0-.795.792v7.409c0 .435.36.792.795.792h6.084V9.525h-6.35V3.968c0-.15.115-.263.266-.263h10.055c.151 0 .264.112.264.263v.264h.529v-.264a.796.796 0 0 0-.793-.792zM8.731 4.76a.8.8 0 0 0-.795.795v7.409c0 .435.36.792.795.792h3.713a1.305 1.305 0 0 1-.273-.792V11.64H8.466v-5.82h5.293v1.587h.529V5.556a.8.8 0 0 0-.795-.795zm-6.883.526a.265.265 0 0 0-.261.27v.529a.265.265 0 1 0 .53 0v-.53a.265.265 0 0 0-.269-.27zm0 1.588a.265.265 0 0 0-.261.27V8.73a.265.265 0 1 0 .53 0V7.144a.265.265 0 0 0-.269-.27zm7.409 0a.265.265 0 0 0-.262.27v.529a.265.265 0 1 0 .53 0v-.53a.265.265 0 0 0-.268-.27zm4.236 1.062a.797.797 0 0 0-.793.793v4.235c0 .435.358.792.793.792h2.117a.796.796 0 0 0 .793-.792V8.73a.796.796 0 0 0-.793-.793zm-4.236.526a.265.265 0 0 0-.262.267v1.588a.265.265 0 1 0 .53 0V8.73a.265.265 0 0 0-.268-.267zm3.973.533h2.644v3.703H13.23zm-7.158 1.587h.543c.352 0 .352.53 0 .53h-.53c-.353.017-.378-.513-.013-.53zm4.777 1.586h.53a.265.265 0 0 1 0 .53h-.53a.265.265 0 0 1 0-.53zm-6.002.53a1.984 1.984 0 0 1-.447.53h-.432a.265.265 0 1 0 0 .528H7.68a1.304 1.304 0 0 1-.274-.792v-.266z" fill="#cccccc" data-original="#000000"></path></g></svg>
+                        <p class="textModExib">...</p>
+                    </button>
+                    <button onclick="comentar()">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><clipPath id="a"><path d="M0 0h24v24H0z" fill="#cccccc" data-original="#000000" class=""></path></clipPath><g fill="#000" clip-path="url(#a)"><path d="M18 7a1 1 0 1 0 0-2H6a1 1 0 1 0 0 2zM18 10a1 1 0 1 0 0-2H6a1 1 0 1 0 0 2zM11 12a1 1 0 0 1-1 1H6a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1z" fill="#cccccc" data-original="#000000" class=""></path><path fill-rule="evenodd" d="M3 0a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h1v5a1 1 0 0 0 1.6.8l7.733-5.8H21a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3zM2 3a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-8a1 1 0 0 0-.6.2L6 21v-4a1 1 0 0 0-1-1H3a1 1 0 0 1-1-1z" clip-rule="evenodd" fill="#cccccc" data-original="#000000" class=""></path></g></g></svg>
+                        Comentar
+                    </button>
+                </div>
+            </div>
+
+
+
+            
+            <div class="footerPreviewProjetosMobile">
+                <div class="btnsNavegacaoProjetosMobile btnsNavegacaoProjetosMobileEsquerda" onclick="navProjectEsquerda()">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M492 236H68.442l70.164-69.824c7.829-7.792 7.859-20.455.067-28.284-7.792-7.83-20.456-7.859-28.285-.068l-104.504 104-.018.019c-7.809 7.792-7.834 20.496-.002 28.314l.018.019 104.504 104c7.828 7.79 20.492 7.763 28.285-.068 7.792-7.829 7.762-20.492-.067-28.284L68.442 276H492c11.046 0 20-8.954 20-20s-8.954-20-20-20z" fill="#cccccc" data-original="#000000"></path></g></svg>
+                </div>
+                <h1 id="numeroProjeto">?/1</h1>
+                <div class="btnsNavegacaoProjetosMobile btnsNavegacaoProjetosMobileDireita" onclick="navProjectDireita()">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M492 236H68.442l70.164-69.824c7.829-7.792 7.859-20.455.067-28.284-7.792-7.83-20.456-7.859-28.285-.068l-104.504 104-.018.019c-7.809 7.792-7.834 20.496-.002 28.314l.018.019 104.504 104c7.828 7.79 20.492 7.763 28.285-.068 7.792-7.829 7.762-20.492-.067-28.284L68.442 276H492c11.046 0 20-8.954 20-20s-8.954-20-20-20z" fill="#cccccc" data-original="#000000"></path></g></svg>
+                </div>
+            </div>
+        </div>
+
+        <section id="ancora-contato" class="contato ancora sectionMain">
+            <img class="efeitoOnda2" src="image/Eu e eu/onda1.png" alt="Efeito onda">
+
+            <h1 class="title">Fale comigo</h1>
+            <p>Se você tiver alguma pergunta ou desejar discutir uma colaboração, não hesite em entrar em contato. Mal posso esperar para trabalhar juntos e criar algo incrível!</p>
+
+            <div class="cntrContato">
+                <form id="meuFormulario" action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="f8545cbe-6343-40e6-ab5d-705d825494cf">
+                    <input type="text" name="name" id="nome" placeholder="Nome">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="text" name="subject" id="assunto" placeholder="Assunto">
+                    <textarea name="message" id="mensagem" cols="30" placeholder="Mensagem" rows="10"></textarea>
+                    <input type="submit" id="submit" value="Enviar">
+                  </form>
+
+                <span>
+                    <div></div>
+                    <p>ou</p>
+                    <div></div>
+                </span>
+                <div class="cntrBtnContatoRedes">
+                    <button onclick="window.open('https://wa.me/5524998428760?text=Ol%C3%A1,%20vim%20pelo%20seu%20portf%C3%B3lio', '_blank');">WhatsApp</button>
+                    <button onclick="window.open('https://www.linkedin.com/in/pedro-elias-j-calabianqui-b2473b205/', '_blank');">Linkedin</button>
+                    <button id="emailButton" onclick="copyEmail()">Email</button>
+                    <button onclick="window.open('tel:+5524998428760', '_blank');">Telefone</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="endPage sectionMain">
+            <img src="image/Footer/onda3.png" alt="Efeito onda">
+            <p>Portifolio para web desenvolvedor, feito por <span>Pedro Elias</span>.</p>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+
+    <script>
+
+
+        let body = document.querySelector('body');
+        let header = document.querySelector('header');
+        let headerMobile = document.querySelector(".headerMobile")
+
+        let main = document.querySelector('main');
+        let iconsRedesProficionais = document.querySelectorAll('.iconsRedesProficionais');
+        let navegacao = document.querySelector('.navegacao');
+        let btnsNavegacao = document.querySelectorAll('.btnsNavegacao');
+        let svgHeader = document.querySelectorAll('.svgHeader');
+
+        let home = document.querySelector(".home")
+        let sobreMim = document.querySelector(".sobreMim")
+        let projetos = document.querySelector(".projetos")
+        let contato = document.querySelector(".contato")
+
+        let cntrOndasHome = document.querySelector(".cntrOndasHome")
+        let cntrLogoMobile = document.querySelector(".cntrLogoMobile")
+
+        let modoHeader = "superior"
+
+        window.addEventListener('scroll', controllerMenu);
+
+        function controllerMenu() {
+            
+            if(mobile == false){
+                if (window.pageYOffset > 0) {
+
+                    if (modoHeader == "superior") {
+                        header.style.animation = "headerSupParaLet .2s both";
+
+                        modoHeader = "lateral"
+
+                        main.style.marginLeft ="120px"
+
+                        setTimeout(() => {
+                            header.style.animation = "none";
+
+                            header.classList.add("headerSupParaLet")
+                            header.classList.remove("headerLetParaSup")
+
+                            headerLateral()
+                        }, 10);
+
+                    }
+
+                    
+
+
+                } else {
+                    // page top
+                    modoHeader = "superior"
+                    header.style.animation = "headerLetParaSup .2s both";
+
+
+                    setTimeout(() => {
+                        header.style.animation = "none";
+
+                        header.classList.add("headerLetParaSup")
+                        header.classList.remove("headerSupParaLet")
+
+                        headerSuperior()
+
+                    }, 10);
+                }
+            }
+            else{
+                if (window.pageYOffset > 50) {
+                    headerMobile.classList.add("headerMobileScroll")
+                    headerMobile.classList.remove("headerMobileTop")
+
+                }else{
+                    headerMobile.classList.add("headerMobileTop")
+                    headerMobile.classList.remove("headerMobileScroll")
+
+                }
+
+            }
+
+        }
+
+        headerSuperior()
+
+        function headerSuperior() {
+            main.style.marginLeft ="0px"
+
+            header.classList.add("headerSuperior")
+            header.classList.remove("headerLateral")
+
+            for (let i = 0; i < iconsRedesProficionais.length; i++) {
+
+                iconsRedesProficionais[i].classList.add("iconsRedesProficionaisHeaderSuperior")
+                iconsRedesProficionais[i].classList.remove("iconsRedesProficionaisHeaderLateral")
+
+
+            }
+
+            navegacao.style.flexDirection = "row";
+
+            for (let i = 0; i < btnsNavegacao.length; i++) {
+                btnsNavegacao[i].classList.add("btnsNavegacaoHeaderSuperior")
+                btnsNavegacao[i].classList.remove("btnsNavegacaoHeaderLateral")
+
+            }
+
+        }
+        function headerLateral() {
+
+            header.classList.remove("headerSuperior")
+            header.classList.add("headerLateral")
+            
+
+            for (let i = 0; i < iconsRedesProficionais.length; i++) {
+
+                iconsRedesProficionais[i].classList.add("iconsRedesProficionaisHeaderLateral")
+                iconsRedesProficionais[i].classList.remove("iconsRedesProficionaisHeaderSuperior")
+
+            }
+
+            navegacao.style.flexDirection = "column";
+            navegacao.style.padding = "0px 4px";
+
+            for (let i = 0; i < btnsNavegacao.length; i++) {
+                btnsNavegacao[i].classList.add("btnsNavegacaoHeaderLateral")
+                btnsNavegacao[i].classList.remove("btnsNavegacaoHeaderSuperior")
+            }
+
+        }
+
+
+
+        // Função para atualizar a saudação com base no horário atual
+        function atualizarSaudacao() {
+        var saudacao = document.getElementById('saudacao');
+        var horaAtual = new Date().getHours();
+
+        if (horaAtual >= 5 && horaAtual < 12) {
+            saudacao.textContent = 'bom dia!';
+        } else if (horaAtual >= 12 && horaAtual < 18) {
+            saudacao.textContent = 'boa tarde!';
+        } else {
+            saudacao.textContent = 'boa noite!';
+        }
+        }
+
+        // Chamar a função inicialmente
+        atualizarSaudacao();
+
+
+
+        var ancoras = document.querySelectorAll(".ancora")
+        var elemento = document.getElementById('seuElemento');
+
+
+
+        for (let i = 0; i < ancoras.length; i++) {
+            var posicaoY = ancoras[i].getBoundingClientRect().top + window.pageYOffset;
+        }
+    
+    
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset < (ancoras[1].getBoundingClientRect().top + window.pageYOffset) - 135){
+                corbtnsNavegacao("0", "4")
+            }
+            else if (window.pageYOffset < (ancoras[2].getBoundingClientRect().top + window.pageYOffset) - 135){
+                corbtnsNavegacao("1", "5")
+
+            }
+            else if (window.pageYOffset < (ancoras[3].getBoundingClientRect().top + window.pageYOffset) - 135){
+                corbtnsNavegacao("2", "6")
+
+            }
+            else if (window.pageYOffset > (ancoras[3].getBoundingClientRect().top + window.pageYOffset) - 135){
+                corbtnsNavegacao("3", "7")
+
+            }
+        });
+
+        corbtnsNavegacao("0", "0")
+        function corbtnsNavegacao(indice1, indice2){
+            for (let i = 0; i < btnsNavegacao.length; i++) {
+                //btnsNavegacao[i].style.color = "white"
+                btnsNavegacao[i].style.backgroundColor = "rgba(255, 255, 255, 0)"
+            }
+            //btnsNavegacao[indice].style.color = "#d14a5e"
+            btnsNavegacao[indice1].style.backgroundColor = "rgba(255, 255, 255, 0.1)"
+            btnsNavegacao[indice2].style.backgroundColor = "rgba(255, 255, 255, 0.1)"
+
+        }
+
+
+        let nameInput = document.getElementById('nome');
+        let emailInput = document.getElementById('email');
+        let subjectInput = document.getElementById('assunto');
+        let messageInput = document.getElementById('mensagem');
+        let bntSubmit = document.getElementById('submit');
+
+        // Função para enviar o formulário sem atualizar a página
+        function enviarFormulario(event) {
+            event.preventDefault(); // Impede o comportamento padrão de envio do formulário
+
+            // Obtém os dados do formulário
+            var form = document.getElementById('meuFormulario');
+            var formData = new FormData(form);
+
+
+            var isValid = true; // Variável para verificar se o formulário é válido
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+
+            // Verificar se o campo de nome está vazio
+            if (nameInput.value.trim() === '') {
+                nameInput.style.border = "1px solid red"
+            }
+            else {
+                nameInput.style.border = "none"
+                
+                // Verificar se o campo de email está vazio ou possui um formato inválido
+                if (emailInput.value.trim() === '' || !emailRegex.test(emailInput.value.trim())) {
+                    emailInput.style.border = "1px solid red"
+                }
+                else {
+                    emailInput.style.border = "none"
+
+                    // Verificar se o campo de assunto está vazio
+                    if (subjectInput.value.trim() === '') {
+                        subjectInput.style.border = "1px solid red"
+                    }
+                    else {
+                        subjectInput.style.border = "none"
+
+                        // Verificar se o campo de mensagem está vazio
+                        if (messageInput.value.trim() === '') {
+                            messageInput.style.border = "1px solid red"
+                        }
+                        else {
+                            messageInput.style.border = "none"
+                            // Converte o objeto FormData para um objeto JSON
+                            var jsonData = {};
+                            for (var pair of formData.entries()) {
+                            jsonData[pair[0]] = pair[1];
+                            }
+
+                            // Envia a requisição usando AJAX
+                            var xhr = new XMLHttpRequest();
+                            xhr.open('POST', form.action, true);
+                            xhr.setRequestHeader('Content-Type', 'application/json');
+                            xhr.onreadystatechange = function() {
+                            if (xhr.readyState === 4 && xhr.status === 200) {
+                                // O formulário foi enviado com sucesso
+                                bntSubmit.value = "Enviado com sucesso"
+                                nameInput.value = ''
+                                emailInput.value = ''
+                                subjectInput.value = ''
+                                messageInput.value = ''
+                                setTimeout(() => {
+                                    bntSubmit.value = "Enviar"
+                                }, 5000);
+                            }else{
+                                // O formulário não foi enviado
+                                bntSubmit.value = "Erro ao enviar"
+                            }
+                            };
+                            xhr.send(JSON.stringify(jsonData));
+                        }
+                    }
+                }
+            }
+        }
+
+        // Evento de clique no botão de envio do formulário
+        var submitButton = document.getElementById('submit');
+        submitButton.addEventListener('click', enviarFormulario);
+
+
+
+
+
+        function copyEmail() {
+        var emailText = "pedroeliasedro22@gmail.com";
+        
+        // Copia o texto para a área de transferência
+        navigator.clipboard.writeText(emailText);
+        
+        // Muda o texto do botão para "Email copiado!"
+        document.getElementById("emailButton").innerText = "Email copiado!";
+        
+        // Aguarda 2 segundos e muda o texto de volta para "Email"
+        setTimeout(function() {
+            document.getElementById("emailButton").innerText = "Email";
+        }, 5000);
+        }
+
+        let mobile = false;
+
+        let notebook = document.querySelector(".cntrNotebook")
+        let textModExib = document.querySelectorAll(".textModExib")
+
+
+        responsividade()
+        function responsividade() {
+            var larguraTela = window.innerWidth;
+
+
+
+
+            if (larguraTela <= 766) {
+                console.log("mobile");
+                mobile = true;
+
+                main.style.marginLeft = "0px"
+
+                home.classList.add("homeMobile")
+                sobreMim.classList.add("sobreMimMobile")
+                projetos.classList.add("projetosMobile")
+                contato.classList.add("contatoMobile")
+                controllerMenu();
+            }
+            else {
+
+                mobile = false;
+                
+                main.style.marginLeft = "120px"
+
+                home.classList.remove("homeMobile")
+                sobreMim.classList.remove("sobreMimMobile")
+                projetos.classList.remove("projetosMobile")
+                contato.classList.remove("contatoMobile")
+
+                if(larguraTela <= 1280){
+                    larguraTela = window.innerWidth;
+                    var dif = larguraTela - 1280;
+                    notebook.style.right = dif + 'px';
+                }else{
+                    
+                }
+            }
+
+            if(mobile == true){
+                textModExib[0].innerHTML = "P/ desktop"
+                textModExib[1].innerHTML = "P/ desktop"
+            }
+            else {
+                textModExib[0].innerHTML = "P/ mobile"
+                textModExib[1].innerHTML = "P/ mobile"
+            }
+        }
+
+        // Chama a função quando a página é carregada e quando a janela é redimensionada
+        window.addEventListener('load', responsividade);
+        window.addEventListener('resize', responsividade);
+
+
+
+
+
+
+
+        let imgsProjetos = [""]
+        imgsProjetos.push("image/Projetos/AirJordan.jpg")
+        imgsProjetos.push("image/Projetos/johnWick.jpg")
+        imgsProjetos.push("image/Projetos/spiritedAway.jpg")
+        imgsProjetos.push("image/Projetos/heisiTattoo.jpg")
+
+        let imgsProjetosMobile = [""]
+        imgsProjetosMobile.push("image/Projetos/AirJordanMobile.jpg")
+        imgsProjetosMobile.push("image/Projetos/johnWickMobile.jpg")
+        imgsProjetosMobile.push("image/Projetos/spiritedAwayMobile.jpg")
+        imgsProjetosMobile.push("image/Projetos/heisiTattooMobile.jpg")
+
+        let linksSiteProjetos = [""]
+        linksSiteProjetos.push("https://elias-pdr.github.io/projeto001---Air-Jordan-6/")
+        
+        let linksCodProjetos = [""]
+        linksCodProjetos.push("https://github.com/Elias-Pdr/projeto001---Air-Jordan-6")
+
+        let subjectProjects = [""]
+        subjectProjects.push("Sobre o projeto 1 - Air Jordan 6")
+        subjectProjects.push("Sobre o projeto 2 - John Wick")
+        subjectProjects.push("Sobre o projeto 3 - Spirited Away")
+        subjectProjects.push("Sobre o projeto 4 - Elias Tattoo")
+
+        let imgPreviewProjeto = document.querySelector(".imgPreviewProjeto")
+        let imgPreviewProjetoMobile = document.querySelector(".imgPreviewProjetoMobile")
+        let indiceImgPreviewProjeto = 0
+
+        let quantidadeProjetos = 4
+
+        let scrollYpreviewProjetos = 0
+
+        function previewProjetos(indice){
+
+            document.querySelector("body").style.overflow = "hidden"
+            console.log("indice: " + indice);
+            indiceImgPreviewProjeto = indice
+            document.getElementById("numeroProjeto").innerHTML = indiceImgPreviewProjeto + "/4"
+
+
+            if(modoExibicaoPreviewDesktop == "desktop"){
+                imgPreviewProjeto.src = imgsProjetos[indice]
+            }
+            else if(modoExibicaoPreviewDesktop == "mobile"){
+                imgPreviewProjeto.src = imgsProjetosMobile[indice]
+            }
+            
+
+            scrollYpreviewProjetos = window.scrollY
+
+            if (mobile == true) {
+                document.querySelector(".previewProjetosMobile").style.display = "flex"
+                for (let i = 0; i < document.querySelectorAll(".sectionMain").length; i++) {
+                    document.querySelectorAll(".sectionMain")[i].style.display = "none"
+                }
+            }
+            else{
+                document.querySelector(".previewProjetos").style.display = "flex"
+            }
+        }
+
+        function fecharPreviewProjetos(){
+            document.querySelector("body").style.overflow = "auto"
+
+            document.querySelector(".previewProjetosMobile").style.animation = "closePreviewProjetosMobile .4s both"
+            document.querySelector(".previewProjetos").style.animation = "closePreviewProjetosMobile .4s both"
+
+            for (let i = 0; i < document.querySelectorAll(".sectionMain").length; i++) {
+                document.querySelectorAll(".sectionMain")[i].style.display = "block"
+            }
+
+            document.documentElement.style.scrollBehavior = 'auto';
+            window.scrollTo(0, scrollYpreviewProjetos);
+
+            setTimeout(() => {
+                document.querySelector(".previewProjetosMobile").style.display = "none"
+                document.querySelector(".previewProjetos").style.display = "none"
+                document.querySelector(".previewProjetosMobile").style.animation = "openPreviewProjetosMobile .4s both"
+                document.querySelector(".previewProjetos").style.animation = "openPreviewProjetosMobile .4s both"
+                document.documentElement.style.scrollBehavior = 'smooth';
+
+            }, 400);
+            controllerMenuImgMobile(".abrirMenuPreviewProjet", ".fecharMenuPreviewProjet")
+
+
+        }
+
+
+        
+
+        function navProjectDireita(){
+            indiceImgPreviewProjeto++
+            if (indiceImgPreviewProjeto > quantidadeProjetos) {
+                indiceImgPreviewProjeto = 1
+            }
+            console.log("indiceImgPreviewProjeto: " + indiceImgPreviewProjeto);
+            previewProjetos(indiceImgPreviewProjeto)
+        }
+        function navProjectEsquerda(){
+            indiceImgPreviewProjeto--
+            if (indiceImgPreviewProjeto < 1) {
+                indiceImgPreviewProjeto = quantidadeProjetos
+            }
+            console.log("indiceImgPreviewProjeto: " + indiceImgPreviewProjeto);
+            previewProjetos(indiceImgPreviewProjeto)
+        }
+
+        function verCod(){
+            window.open(linksCodProjetos[indiceImgPreviewProjeto], '_blank');
+        }
+        function visitarSite(){
+            window.open(linksSiteProjetos[indiceImgPreviewProjeto], '_blank');
+        }
+        function comentar(){
+            document.querySelector("body").style.overflow = "auto"
+
+            subjectInput.value = subjectProjects[indiceImgPreviewProjeto]
+            document.querySelector(".menuPreviewProjetMobile").style.animation = "none"
+            document.querySelector(".menuPreviewProjetMobile").style.display = "none"
+            controllerMenuImgMobile(".abrirMenuPreviewProjet", ".fecharMenuPreviewProjet")
+
+            document.querySelector(".previewProjetosMobile").style.animation = "closePreviewProjetosMobile .4s both"
+            document.querySelector(".previewProjetos").style.animation = "closePreviewProjetosMobile .4s both"
+            for (let i = 0; i < document.querySelectorAll(".sectionMain").length; i++) {
+                document.querySelectorAll(".sectionMain")[i].style.display = "block"
+            }
+            document.documentElement.style.scrollBehavior = 'auto';
+            window.scrollTo(0, 0);
+
+            setTimeout(() => {
+                document.querySelector(".previewProjetosMobile").style.display = "none"
+                document.querySelector(".previewProjetos").style.display = "none"
+                document.querySelector(".previewProjetosMobile").style.animation = "openPreviewProjetosMobile .4s both"
+                document.querySelector(".previewProjetos").style.animation = "openPreviewProjetosMobile .4s both"
+                window.scrollTo(0, document.documentElement.scrollHeight);
+            }, 400);
+        }
+        function controllerMenuImgMobile(iconAbrir, iconFechar){
+            if (document.querySelector(iconAbrir).style.display == "none") {
+                document.querySelector(iconAbrir).style.display = "block"
+                document.querySelector(iconFechar).style.display = "none"
+                document.querySelector(".menuPreviewProjetMobile").style.animation = "closeMenuPreviewProjetMobile .3s both"
+
+                setTimeout(() => {
+                    document.querySelector(".menuPreviewProjetMobile").style.display = "none"
+                }, 200);
+
+            }else{
+                document.querySelector(iconAbrir).style.display = "none"
+                document.querySelector(iconFechar).style.display = "block"
+                document.querySelector(".menuPreviewProjetMobile").style.animation = "openMenuPreviewProjetMobile .3s both"
+                document.querySelector(".menuPreviewProjetMobile").style.display = "flex"
+
+
+            }
+        }
+
+
+        let modoExibicaoPreviewMobile = "mobile"
+        function modoExibPreviewMobile(){
+
+            if (textModExib[1].innerHTML == "P/ mobile") {
+                textModExib[1].innerHTML = "P/ desktop"
+                imgPreviewProjetoMobile.src = imgsProjetosMobile[indiceImgPreviewProjeto]
+                modoExibicaoPreviewMobile = "mobile"
+                imgPreviewProjetoMobile.classList.add('imgModoExibMobile')
+                imgPreviewProjetoMobile.classList.remove('imgModoExibDesktop')
+            }else{
+                textModExib[1].innerHTML = "P/ mobile"
+                imgPreviewProjetoMobile.src = imgsProjetos[indiceImgPreviewProjeto]
+                modoExibicaoPreviewMobile = "desktop"
+                imgPreviewProjetoMobile.classList.add('imgModoExibDesktop')
+                imgPreviewProjetoMobile.classList.remove('imgModoExibMobile')
+
+            }
+        }
+
+        let modoExibicaoPreviewDesktop = "desktop"
+        function modoExibPreviewDesktop(){
+
+            if (textModExib[0].innerHTML == "P/ mobile") {
+                textModExib[0].innerHTML = "P/ desktop"
+                imgPreviewProjeto.src = imgsProjetosMobile[indiceImgPreviewProjeto]
+                modoExibicaoPreviewDesktop = "mobile"
+                imgPreviewProjeto.style.width = "400px"
+                imgPreviewProjeto.style.height = "fit-content"
+
+            }else{
+                textModExib[0].innerHTML = "P/ mobile"
+                imgPreviewProjeto.src = imgsProjetos[indiceImgPreviewProjeto]
+                modoExibicaoPreviewDesktop = "desktop"
+                imgPreviewProjeto.style.width = "100%"
+                imgPreviewProjeto.style.height = "fit-content"
+
+            }
+        }
+        
+
+
+    </script>
+
+</body>
+</html>
